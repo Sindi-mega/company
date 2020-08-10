@@ -20,16 +20,86 @@
     color: #b2b1b1;
     cursor: pointer;
 }
-.logo{
-    width: 30px;
+.logo img{
+    width: 90px;
     height: auto;
-    margin-top: -7px;
+    margin-top: -15px;
 }
 .banner{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    top: 25%;
     position: relative;
+    color: black
+
 }
 .app-text{
     width: 50px;
     height: 50px;
     background: none;
 }
+.app-text h1{
+    top: -50px;
+    font-size: 50px;
+    width: 640px;
+    position: absolute;
+    margin-left: 55%;
+}
+.app-text p img{
+    top: 5%;
+    width: 15%;
+    position: absolute;
+    margin-left: 60%;
+}
+.app-text h2{
+    color: #b2b1b1;
+    bottom: 50%;
+    font-size: 20px;
+    width: 640px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.pagetwo{
+    top: 50%;
+    background: rgb(102, 101, 101);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+
+.about-section h1{
+    top: 120%;
+    font-size: 36px;
+    width: 640px;
+    position: absolute;
+    margin-left: 5%;
+}
+.about-section p{
+    color: #ffffff;
+    top: 127%;
+    font-size: 16px;
+    width: 640px;
+    position: absolute;
+    margin-left: 5%;
+}
+.about-section h2 img{
+    top: 100%;
+    width: 30%;
+    position: absolute;
+    margin-left: 68%;
+}
+.about-section p img{
+    top: 80%;
+    width: 40%;
+    position: absolute;
+    margin-left: 100%;
+
+.contact-section{
+    background: url(f.png) no repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
