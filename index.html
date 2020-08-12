@@ -1,56 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Company Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Company Profile</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="header">
     <div class="container">
-        <div class="menu">
-        <ul> 
-            <li class="logo"><img src="op.png"></li>          
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Collection</li>
-            <li>Contact Us</li>
-        </ul>
-        </div> 
-        <div class="banner">
-             <div class="app-text">
-                 <h1>T I D A L</h1>
-                 <p><img src="pin.png"></p>
-                 <h2>We Are Tidal <br>All About Fashion</h2>
-               
-             </div>
-            </div>
-
-
-         <div class="pagetwo">
-             <div class="about-section">
-                 <h1>About Us</h1>
-                 <p>Tidal is an Company that 
-                     is involved in the design,  
-                     <br>marketing and sales of apparel, outwear, and accessories.<br>
-                     The company employs more than 4,000 people in Indonesia<br> Created by Aulia in 2018, located in Batam, Indonesia</p>
-                <h2><img src="img/as.jpg"></h2>
-                <p><img src="img/t.jpg"></p>
-                    </div>
-             
-         </div>
-    
-   <div class="pagethree"></div>
-
-    <div class="contact-section">
-        <h1>Contact Us</h1>
-
-        <form class="contact-form" action="index.html" method="post">
-                <label>Name</label>
-                <input type="text" class="cemailt-form-text" placeholder="Full name ">
-                <input type="email" class="contact-form-text" placeholder="Your email ">
-                <input type="text" class="contact-form-text" placeholder="Your phone ">
-                <textarea type="contact-form-text" placeholder="your massage "> 
-                <input type="submit" class="contact-form-btn" value="Send">  
-        </form>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/op.png" width="125px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Collection</a></li>
+                <li><a href="#4">Contact</a></li>
+            </ul>
+        </nav>
     </div>
+</div>
+<a name="1"></a>
+<div class="banner">
+        <div class="app-text">
+            <h1>T I D A L</h1>
+            <p><img src="pin.png"></p>
+            <h2>We Are Tidal <br>All About Fashion</h2>
+        </div>
+       </div>
+</div>
+
+
+    <a name="2"></a>
+    <section class="about" id="1">
+        <div class="row">
+                    <h1> About Tidal</h1>
+                <p>Tidal is an Company that 
+                    is involvedthat in the design, <br> 
+                    marketing and sales of apparel,
+                    outwear, and accessories.<br>
+                    The company employs more than 4,000<br> people in Indonesia
+                    Created by Aulia in 2018,<br>located in Batam, Indonesia</p>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/t.jpg" width="200">
+            </div>
+            <div class="col-2" >
+                <img src="img/as.jpg" width="400">
+
+            </div>
+        </div>
+    </section>
+
+    <a name="3"></a>
+    <div class="collection" >
+        <div class="coll">
+                <h1>Collection</h1>
+            
+            <p>Get Up To <span>40%</span> <br> <br>Discount</p>
+            <button type="button" class="btn"><a href="#5"> Categories</a></button>
+        </div>
+    </div>
+
+    <a name="5"></a>
+    <section class="categories">
+        <div class="item1">
+            <h1>Sale All Item</h1>
+            <button type="button" class="btn-dress">Shop Now!!</button>
+        </div>
+        <div class="item2">
+            <img src="img/uy.png" width="600" height="400">
+            <button type="button" class="btn-dress2">Dress</button>
+        </div>
+        <div class="item3">
+            <img src="img/ty.png" width="430" height="705">
+            <button type="button" class="btn-dress3">Hoodie</button>
+        </div>
+        <div class="item4">
+            <img src="img/q.jpg" width="420" height="300">
+            <button type="button" class="btn-dress4">Jeans</button>
+        </div>
+        <div class="item5">
+            <img src="img/jo.jpg" width="450" height="300">
+            <button type="button" class="btn-dress5">T-shirt</button>
+        </div>
+    </section>
+
+
+
+    <a name="4"></a>
+    <div class="Contact" >
+        
+            <form >
+                <div class="page">
+
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your Full Name..">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your Email..">
+                
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+                
+                
+                    <label for="subject">Massage</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
+                </div>
+            </div>
+    </div>
+
+<footer>
+    <div class="row-footer">
+    <p>Telp: 0812-3456-7890</p>
+        <p>Email: Tidal@company.co</p>
+    <img src="img/op.png" width="120px" ></div>
+</footer>
 </body>
 </html>
